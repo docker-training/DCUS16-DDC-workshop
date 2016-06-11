@@ -1,4 +1,4 @@
-# Task 4 - User Management with LDAP
+# EXTRA Task 7 - User Management with LDAP
 
 ## Pre-requisites
 - Pre-configured LDAP server with users and groups setup. Your instructor will provide you with details.
@@ -22,7 +22,7 @@
 
 1\. Login to UCP as the admin user
 
-2\. Go to the “Settings” page of UCP
+2\. Go to the â€œSettingsâ€ page of UCP
 
 3\. Click on the Auth section and change the Method from "Managed" to "LDAP"
 
