@@ -1,4 +1,4 @@
-# Task 2 - Test User Access
+# Task 6 - Test User Access
 
 In this task you will complete the following steps:
 1. Test permission labels
