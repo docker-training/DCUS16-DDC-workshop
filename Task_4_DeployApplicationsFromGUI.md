@@ -1,4 +1,4 @@
-# Task 5 - Deploy Applications using the UCP Web Interface
+# Task 4 - Deploy Applications using the UCP Web Interface
 
 ## Pre-requisites
 - UCP installed and 2 nodes joined to the UCP controller
