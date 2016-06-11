@@ -1,4 +1,4 @@
-# Task 4 - Deploy a simple application on UCP
+# Task 3 - Deploy a simple application on UCP
 
 ## Pre-requisites
 - You must have [Docker Toolbox](https://www.docker.com/products/docker-toolbox) installed on your local machine
@@ -79,12 +79,12 @@ In this exercise we will deploy a simple multi container application. The applic
    ```
 
 7. Switch over to UCP on your web browser
-8. Click on the ìApplicationsî link on the left navigation bar
+8. Click on the ‚ÄúApplications‚Äù link on the left navigation bar
 9. You should see the following output
 
    ![](images/ucp02_t4_applications.PNG)
 
-10. Click on the ìShow Containersî link on the right side to expand the view of the application
+10. Click on the ‚ÄúShow Containers‚Äù link on the right side to expand the view of the application
 
    ![](images/ucp02_t4_applications_expanded.PNG)
    
@@ -93,7 +93,7 @@ In this exercise we will deploy a simple multi container application. The applic
 ## Using the Client Bundle
 
 Manually logging into the EC2 instance to run docker-compose to deploy your applications is not very convenient and in a lot of cases not possible. 
-After all, you wouldnít want to give SSH access to too many people. So instead of SSHing into the machine in order to deploy our applications, 
+After all, you wouldn‚Äôt want to give SSH access to too many people. So instead of SSHing into the machine in order to deploy our applications, 
 we use the client bundle.
 
 The client bundle sets up the certificates needed in order to allow us to use a Docker client or docker-compose on our local machine. 
@@ -102,7 +102,7 @@ It will connect our Docker client to the Swarm manager that is running on our UC
 1. Navigate to your user profile in UCP
 
    ![](images/ucp02_t4_profile_dropdown.PNG)
-2. Click the ìCreate a Client Bundleî button. This will download a ìzipî file with the necessary keys, 
+2. Click the ‚ÄúCreate a Client Bundle‚Äù button. This will download a ‚Äúzip‚Äù file with the necessary keys, 
    certificates and scripts needed to connect your Docker client to Swarm. 
    
    ![](images/ucp02_t4_client_bundle.PNG)
@@ -265,7 +265,7 @@ It will connect our Docker client to the Swarm manager that is running on our UC
 
 For the following section, use what you have learnt just now and complete the steps listed below.
    
-1. Now that youíve deployed your first application, itís time to try another example. Go to https://github.com/prakhar1989/FoodTrucks
+1. Now that you‚Äôve deployed your first application, it‚Äôs time to try another example. Go to https://github.com/prakhar1989/FoodTrucks
 2. Clone the `FoodTrucks` repo into your local PC or Mac
 3. Deploy the `FoodTrucks` application into UCP. Remember to use the Client Bundle
 4. View the application in your web browser
