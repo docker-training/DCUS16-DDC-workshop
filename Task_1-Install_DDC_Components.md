@@ -31,6 +31,7 @@ In this step you will install UCP on your first two hosts. You will install a UC
   - Log into your first host to install a UCP controller. Log into your second host to join a UCP node (non-replica) to the cluster.
   - You can skip all steps labeled optional (steps 3, 4, 7, 8). This tutorial is not a high-availability install.
   - Use the license file provided by your instructors when installing UCP.
+  - Repeat these steps for hosts labeled "node" and "dtr".
 
 2. Verify UCP is functioning by logging into UCP as an admin.
 
